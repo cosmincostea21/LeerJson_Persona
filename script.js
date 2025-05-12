@@ -3,7 +3,7 @@ fetch('personas.json')
     .then(response => response.json()) // Corregido: Retornar response.json()
     .then(data => {
         let personas = data; // Asignar el resultado a la variable personas.
-        let contenedor = document.getElementById('resultado')
+        let contenedor = document.getElementById('personas')
         
         personas.forEach(element => {
             let contenedorHijo = document.createElement('div');
