@@ -1,0 +1,38 @@
+{
+    "clientes": [
+        {
+            "id": 0,
+            "nombre": "Pepe",
+            "apellidos": "López Aguirre",
+            "edad": 56,
+            "suscrito": true,
+            "aficiones": [
+                "leer",
+                "nadar",
+                "paddle"
+            ],
+            "direccion": {
+                "calle": "Norte",
+                "numero": "23b",
+                "poblacion": "Alcázar de San Juan"
+            }
+        },
+        {
+            "id": 1,
+            "nombre": "Miguel",
+            "apellidos": "Fernandez",
+            "edad": 19,
+            "suscrito": true,
+            "aficiones": [
+                "leer",
+                "gym",
+                "paddle"
+            ],
+            "direccion": {
+                "calle": "Norte",
+                "numero": "23b",
+                "poblacion": "Alcázar de San Juan"
+            }
+        }
+    ]
+}
