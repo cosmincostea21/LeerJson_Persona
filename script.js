@@ -8,8 +8,8 @@ fetch('personas.json')
         personas.forEach(element => {
             let contenedorHijo = document.createElement('div');
             contenedorHijo.innerHTML = `
-                Nombre de la persona ${element.nombre} <br>
-                Edad de la persona ${element.edad} <br>`;
+                <p>Nombre de la persona ${element.nombre}<p> <br>
+                <p>Edad de la persona ${element.edad}<p> <br>`;
             contenedor.appendChild(contenedorHijo);
         });
         
