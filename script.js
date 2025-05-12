@@ -1,5 +1,5 @@
 // Fetch de un archivo JSON
-fetch('personas.json')
+fetch('persona.json')
     .then(response => response.json()) // Corregido: Retornar response.json()
     .then(data => {
         let personas = data; // Asignar el resultado a la variable personas.
